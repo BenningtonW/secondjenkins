@@ -1,1 +1,4 @@
-${INPUT}-${BUILD_NUMBER}-DATA
+#!/bin/bash
+
+
+echo ${INPUT}-${BUILD_NUMBER}-DATA

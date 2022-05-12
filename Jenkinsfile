@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
 
@@ -14,7 +15,9 @@ pipeline {
                 sh 'myscript'
               
               
-            }     stage('archive') {
+            }     
+                   
+                   stage('archive') {
             steps {
                 archiveArtifacts artifacts: 'output', followSymlinks: false
               

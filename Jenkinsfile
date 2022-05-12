@@ -6,14 +6,14 @@ pipeline {
         stage('gitget') {
             steps {
                 git branch: 'main', url: 'https://github.com/BenningtonW/secondjenkins.git'
-              
+                }
               
             }
           
                stage('runscript') {
             steps {
                 sh 'myscript'
-              
+                }
               
             }     
                    

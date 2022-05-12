@@ -12,7 +12,7 @@ pipeline {
           
                stage('runscript') {
             steps {
-                sh 'myscript'
+               sh 'sh ./myscript
                 }
               
             }     
